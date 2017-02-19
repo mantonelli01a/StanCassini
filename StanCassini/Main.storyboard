@@ -28,25 +28,16 @@
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Earth"/>
-                                        <connections>
-                                            <segue destination="zOp-QW-QRc" kind="showDetail" identifier="Show image" id="u0i-nn-ZSW"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DdJ-m0-sOR">
                                         <rect key="frame" x="0.0" y="80" width="128" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Cassini"/>
-                                        <connections>
-                                            <segue destination="zOp-QW-QRc" kind="showDetail" identifier="Show image" id="kmF-KI-IMn"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQ2-xf-7aa">
                                         <rect key="frame" x="0.0" y="160" width="128" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Saturn"/>
-                                        <connections>
-                                            <segue destination="zOp-QW-QRc" kind="showDetail" identifier="Show image" id="tKW-YO-2bd"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -100,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1404" y="387"/>
+            <point key="canvasLocation" x="1697" y="596"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="huX-Rm-pBe">
@@ -149,10 +140,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rno-1N-brw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="386" y="376"/>
+            <point key="canvasLocation" x="465" y="596"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="u0i-nn-ZSW"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4961833F1E47A8D900F6C72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961833E1E47A8D900F6C72C /* AppDelegate.swift */; };
-		496183441E47A8D900F6C72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496183421E47A8D900F6C72C /* Main.storyboard */; };
 		496183461E47A8D900F6C72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496183451E47A8D900F6C72C /* Assets.xcassets */; };
 		496183491E47A8D900F6C72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496183471E47A8D900F6C72C /* LaunchScreen.storyboard */; };
 		496183541E47A8D900F6C72C /* StanCassiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496183531E47A8D900F6C72C /* StanCassiniTests.swift */; };
@@ -16,6 +15,7 @@
 		4961836E1E47AA2F00F6C72C /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961836D1E47AA2F00F6C72C /* imageViewController.swift */; };
 		496183701E47B07F00F6C72C /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961836F1E47B07F00F6C72C /* DemoURL.swift */; };
 		496183721E47BCCA00F6C72C /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496183711E47BCCA00F6C72C /* CassiniViewController.swift */; };
+		49848B831E490AE50078E45F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49848B821E490AE50078E45F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		4961833B1E47A8D900F6C72C /* StanCassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanCassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4961833E1E47A8D900F6C72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		496183431E47A8D900F6C72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		496183451E47A8D900F6C72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496183481E47A8D900F6C72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4961834A1E47A8D900F6C72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		4961836D1E47AA2F00F6C72C /* imageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 		4961836F1E47B07F00F6C72C /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 		496183711E47BCCA00F6C72C /* CassiniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
+		49848B821E490AE50078E45F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				4961836C1E47A9AC00F6C72C /* supporting items */,
-				496183421E47A8D900F6C72C /* Main.storyboard */,
 				496183711E47BCCA00F6C72C /* CassiniViewController.swift */,
 				4961836D1E47AA2F00F6C72C /* imageViewController.swift */,
 				4961836F1E47B07F00F6C72C /* DemoURL.swift */,
@@ -132,6 +131,7 @@
 		4961836C1E47A9AC00F6C72C /* supporting items */ = {
 			isa = PBXGroup;
 			children = (
+				49848B821E490AE50078E45F /* Main.storyboard */,
 				4961833E1E47A8D900F6C72C /* AppDelegate.swift */,
 				496183451E47A8D900F6C72C /* Assets.xcassets */,
 				496183471E47A8D900F6C72C /* LaunchScreen.storyboard */,
@@ -246,9 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49848B831E490AE50078E45F /* Main.storyboard in Resources */,
 				496183491E47A8D900F6C72C /* LaunchScreen.storyboard in Resources */,
 				496183461E47A8D900F6C72C /* Assets.xcassets in Resources */,
-				496183441E47A8D900F6C72C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,14 +312,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		496183421E47A8D900F6C72C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				496183431E47A8D900F6C72C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		496183471E47A8D900F6C72C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -521,6 +513,7 @@
 				496183651E47A8D900F6C72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		496183661E47A8D900F6C72C /* Build configuration list for PBXNativeTarget "StanCassiniTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +522,7 @@
 				496183681E47A8D900F6C72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		496183691E47A8D900F6C72C /* Build configuration list for PBXNativeTarget "StanCassiniUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +531,7 @@
 				4961836B1E47A8D900F6C72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
